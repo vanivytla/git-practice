@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script type="text/javascript">
+
+     function sumofdigits(no)
+     {
+     	var sum =0;
+     	while(no>0)
+     	{
+     		sum = sum+(no%10);
+     		console.log('sum='+ sum);
+     		no=Math.floor(no / 10);
+     		console.log(no);
+     		
+     	}
+
+     	document.write("sum of the digits is"+ sum);
+     }
+     
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+     sumofdigits(357);
+
+	</script>
+</body>
+
+</html>
